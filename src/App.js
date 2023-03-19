@@ -6,24 +6,30 @@ import Gradebook from './components/Gradebook';
 import Assignment from './components/Assignment';
 import {BrowserRouter, Switch,  Route} from 'react-router-dom';
 
-function App() {
-  return (
-    <div className="App">
-      <AppBar position="static" color="default">
-        <Toolbar>
-           <Typography variant="h6" color="inherit">
-            Gradebook
-           </Typography>
-        </Toolbar>
-      </AppBar>
-      <BrowserRouter>
-       <Switch>
-        <Route exact path='/' component={Assignment} />
-        <Route path='/gradebook' component={Gradebook} />
-       </Switch>
-      </BrowserRouter>
-    </div>
-  );
+// function App() {
+//   return (
+//     <div className="App">
+//       <AppBar position="static" color="default">
+//         <Toolbar>
+//            <Typography variant="h6" color="inherit">
+//             Gradebook
+//            </Typography>
+//         </Toolbar>
+//       </AppBar>
+//       <BrowserRouter>
+//        <Switch>
+//         <Route exact path='/' component={Assignment} />
+//         <Route path='/gradebook' component={Gradebook} />
+//        </Switch>
+//       </BrowserRouter>
+//     </div>
+//   );
+// }
+
+
+export default function App() {
+  return  (
+    <h1>Hello World</h1>
+  )
 }
 
-export default App;
