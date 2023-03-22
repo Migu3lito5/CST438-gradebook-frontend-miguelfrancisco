@@ -63,7 +63,7 @@ export default class AddAssignment extends React.Component {
         return (
             <div>
                 <h2>Create New Assignment</h2>
-            <form>
+            <form className="addForm">
               
                <input
                 name="name"
@@ -87,11 +87,11 @@ export default class AddAssignment extends React.Component {
 
 
     
-               <button onClick={this.onSubmit}>Create Assignment</button>
+               <Button variant="outlined" onClick={this.onSubmit}>Create Assignment</Button>
                
     
             </form>
-            <Button component={Link} to={{pathname:'/'}} >Back To Home
+            <Button className="home-button" variant="outlined" component={Link} to={{pathname:'/'}} >Back To Home
             </Button>
             </div>
             

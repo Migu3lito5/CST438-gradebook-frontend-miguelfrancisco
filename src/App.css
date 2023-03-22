@@ -38,8 +38,16 @@
 }
 
 .addForm {
-  margin: 2rem auto 2rem auto;
+  margin: 2rem auto 5rem auto;
 }
+
+
+.addForm select, .addForm input {
+  width: 15rem;
+  height: 25px;
+  margin: 4rem 1rem auto 1rem;
+}
+
 
 
 .createButton {
@@ -50,3 +58,4 @@
 .content {
   margin: auto 4rem auto 4rem;
 }
+
