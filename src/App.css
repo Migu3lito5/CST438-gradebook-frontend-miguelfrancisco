@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.addForm {
+  margin: 2rem auto 5rem auto;
+}
+
+
+.addForm select, .addForm input {
+  width: 15rem;
+  height: 25px;
+  margin: 4rem 1rem auto 1rem;
+}
+
+
+
+.createButton {
+  margin: 2rem auto;
+}
+
+
+.content {
+  margin: auto 4rem auto 4rem;
+}
+
